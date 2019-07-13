@@ -1,4 +1,9 @@
-import { ninja } from './ninjas';
-import './styles/styles.scss';
+import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
+import App from './components/App';
 
-console.log(ninja('Marco Polo'));
+
+ReactDOM.render(
+    <App/>,
+    document.getElementById("root")
+);

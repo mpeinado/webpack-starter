@@ -24,14 +24,23 @@ http-server -o
 
 npm run start
 
+## React
+npm install --save react react-dom
+npm install --save-dev babel-preset-react
+
 ## Nuggets Learned 
 * code . - opens current directory with code 
 * npm init -y 
 
 
 ## References 
-https://webpack.js.org/
+- https://webpack.js.org/
 
-https://www.youtube.com/watch?v=TzdEpgONurw
+- https://www.youtube.com/watch?v=TzdEpgONurw
 
-https://stackoverflow.com/questions/46058546/error-eacces-permission-denied-access-usr-lib-node-modules
+- https://stackoverflow.com/questions/46058546/error-eacces-permission-denied-access-usr-lib-node-modules
+
+- https://hackernoon.com/a-tale-of-webpack-4-and-how-to-finally-configure-it-in-the-right-way-4e94c8e7e5c1
+
+### React Setup 
+https://www.codecademy.com/articles/react-setup-i

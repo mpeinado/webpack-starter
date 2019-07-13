@@ -2,6 +2,8 @@ const htmlWebpackPlugin = require("html-webpack-plugin");
 const miniCssExtractplugin = require('mini-css-extract-plugin');
 
 module.exports = {
+    entry: __dirname + '/src/index.js',
+    mode: 'development',
     module: {
         rules: [
             {
@@ -51,3 +53,4 @@ module.exports = {
         })
     ]
 }
+
