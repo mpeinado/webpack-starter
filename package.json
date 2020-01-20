@@ -4,8 +4,8 @@
   "description": "Webpack Starter",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "marco.peinado",
   "license": "MIT",
@@ -29,5 +29,8 @@
     "webpack-cli": "^3.3.5",
     "webpack-dev-server": "^3.7.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack-merge": "^4.2.2"
+  }
 }
